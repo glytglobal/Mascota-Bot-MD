@@ -100,7 +100,7 @@ npm install
 ```bash
 npm start
 ```
-> **Warning:** Si aparece (Y/I/N/O/D/Z) [default=N] use la letra "y" + "ENTER" para continuar con la instalación 
+> **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
 > **NOTA:** DESCARGUE Y DESCOMPRIME EL ARCHIVO
@@ -119,45 +119,45 @@ npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Nota:** Guardar los archivos en la ubicación: storage/downloads/Mascota-Bot-MD-master/Mascota-Bot-MD-master   
+> **NOTA:** Guardar los archivos en la ubicación: storage/downloads/Mascota-Bot-MD-master/Mascota-Bot-MD-master   
 ----
 ### 🚀 USAR MASCOTABOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta MascotaBot-MD
+> EJECUTAR ESTOS COMANDOS DENTRO DE LA CARPETA DE MASCOTA-BOT-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 #### ⬇️ Opciones Disponibles
-> **Warning** Esto eliminará todo el historial que hayas establecido con PM2:
+> **ADVERTENCIA** ESTO ELIMINARÁ TODO EL HISTORIAL QUE HAYAS ESTABLECIDO CON PM2:
 ```bash 
 pm2 delete index
 ``` 
-> Si tienes cerrado Termux y quiere ver de nuevo la ejecución use:
+> SI TIENE CERRADO TERMUX Y QUIERE VER LA EJECUCION DE NUEVO USÉ:
 ```bash 
 pm2 logs 
 ``` 
-> Si desea detener la ejecución de Termux use:
+> SI DESEA DETENER LA EJECUCION USE:
 ```bash 
 pm2 stop index
 ``` 
-> Si desea iniciar de nuevo la ejecución de Termux use:
+> SI DESEA INICIAR DE NUEVO LA EJECUCIÓN DE TERMUX USE:
 ```bash 
 pm2 start index
 ``` 
 ----
 ### 😼 ACTUALIZAR MASCOTABOT
-> **Note** Comandos para actualizar de forma automática Mascota-Bot-MD
+> **NOTA** COMANDOS PARA ACTUALIZAR DE FORMA AUTOMÁTICA MASCOTA-BOT-MD
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
 ```
-#### Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-> **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
+#### Para que no pierda su progreso en Mascota-Bot-MD, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+> **ADVERTENCIA** ESTOS COMANDOS SOLO FUNCIONAN EN TERMINÓ/REPLIT/LINUX                          
 ----
 
 #### 𝘾𝙍𝙀𝘼𝘿𝙊𝙍
 <a href="https://github.com/glytglobal/">
 <img src="https://telegra.ph/file/35f5a789ab08eef0067bd.jpg"/>
 
-##### <h6>𝘾𝙊𝙇𝘼𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 - 𝘼𝙂𝙍𝘼𝘿𝙀𝘾𝙄𝙈𝙄𝙀𝙉𝙏𝙊𝙎</h6>
+##### 𝘾𝙊𝙇𝘼𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 - 𝘼𝙂𝙍𝘼𝘿𝙀𝘾𝙄𝙈𝙄𝙀𝙉𝙏𝙊𝙎
 
 <a href="https://github.com/glytglobal/Mascota-Bot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=glytglobal/Mascota-Bot-MD"/> 
