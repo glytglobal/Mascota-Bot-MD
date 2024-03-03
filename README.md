@@ -32,7 +32,7 @@
 > AL ACCEDER A LA PLATAFORMA, OBTENDRÁS ACCESO A TODOS LOS ENLACES OFICIALES DE MASCOTA-BOT-MD. ADEMÁS, TE MANTENDREMOS INFORMADO CON BOLETINES Y MENSAJES EXCLUSIVOS SOBRE LAS ÚLTIMAS NOVEDADES. LA PÁGINA SE ACTUALIZA CONSTANTEMENTE PARA OFRECERTE LA INFORMACIÓN MÁS RELEVANTE. ¡NO TE PIERDAS NINGUNA ACTUALIZACIÓN Y ÚNETE A NUESTRO CANAL AHORA MISMO!
 
 <a href="https://www.atom.bio/Mascota-Bot-MD">
-<img src="https://img.shields.io/badge/Redes_Sociales-0%93%93%0%?style=for-the-badge&logo=biolink&logoColor=white">
+<img src="https://img.shields.io/badge/Redes_Sociales-%F0%9F%98%BC?style=for-the-badge&logo=biolink&logoColor=white">
 </a>
 
 ------
