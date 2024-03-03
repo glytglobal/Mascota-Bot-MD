@@ -157,7 +157,7 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 <a href="https://github.com/glytglobal/">
 <img src="https://telegra.ph/file/35f5a789ab08eef0067bd.jpg"/>
 
-###### 𝘾𝙊𝙇𝘼𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 - 𝘼𝙂𝙍𝘼𝘿𝙀𝘾𝙄𝙈𝙄𝙀𝙉𝙏𝙊𝙎
+##### <h6>𝘾𝙊𝙇𝘼𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 - 𝘼𝙂𝙍𝘼𝘿𝙀𝘾𝙄𝙈𝙄𝙀𝙉𝙏𝙊𝙎</h6>
 
 <a href="https://github.com/glytglobal/Mascota-Bot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=glytglobal/Mascota-Bot-MD"/> 
