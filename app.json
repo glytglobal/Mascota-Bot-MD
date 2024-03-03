@@ -1,0 +1,18 @@
+{
+  "name": "𝙈𝙖𝙨𝙘𝙤𝙩𝙖-𝘽𝙤𝙩-𝙈𝘿 😼", 
+  "description": "𝗦𝗨𝗣𝗘𝗥 - 𝗠𝗔𝗦𝗖𝗢𝗧𝗔 😼",
+  "repository": "https://github.com/glytglobal/Mascota-Bot-MD",
+  "logo": "https://telegra.ph/file/5d7e41b68eb51b299f0ff.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
