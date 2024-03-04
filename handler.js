@@ -100,6 +100,7 @@ if (!isNumber(user.afk)) user.afk = -1
 //if (!('autolevelup' in user))  user.autolevelup = true
 if (!isNumber(user.reporte)) user.reporte = 0
 if (!('role' in user)) user.role = '*NOVATO(A)* 🪤'
+if (!('muto' in user)) user.muto = false
 if (!isNumber(user.agility)) user.agility = 0
 if (!isNumber(user.anakanjing)) user.anakanjing = 0
 if (!isNumber(user.mesagge)) user.anakanjing = 0
@@ -516,6 +517,7 @@ miestado: m.miestado,
 descripcion: m.descripcion,
 premLimit: 0,
 agility: 16,
+muto: false,
 messageSpam: 0,
 anakanjing: 0,
 anakcentaur: 0,
