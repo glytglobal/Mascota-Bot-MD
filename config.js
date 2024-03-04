@@ -108,7 +108,7 @@ global.author = "𝙈𝙖𝙨𝙘𝙤𝙩𝙖 😼" // AUTHOR PACK - AUTOR DEL P
 //⊱ ━━━━━.⋅ VERSION | NOMBRE | CUENTAS ⋅.━━━━ ⊰
 
 global.vs = "1.0.0"
-global.vsJB = "1.0 (Beta)"
+global.vsJB = "1.2 (Beta)"
 
 global.gt = "𝙈𝙖𝙨𝙘𝙤𝙩𝙖-𝘽𝙤𝙩-𝙈𝘿 😼" // NOMBRE DE TU BOT
 global.yt = "https://www.youtube.com/@Mascota-Bot-MD"
