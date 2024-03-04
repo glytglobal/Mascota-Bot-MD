@@ -27,9 +27,8 @@ global.Key360 = ["964f-0c75-7afc"]
 // ◉━━━━━ IDIOMA : LENGUAJE ━━━━◉
 // AGREGA EL IDIOMA QUE QUIERES QUE TENGA MASCOTA-BOT-MD
 // ADD THE LANGUAGE YOU WANT MASCOTA-BOT-MD TO HAVE
-//  es = ESPAÑOL/ESP         id = INDONESIA/IND
-//  en = ENGLISH/ENG         pt = PORTUGUÊS/BR
-//  ar = عربي/عربي            hi = HINDI LENGUAJE
+//  es = ESPAÑOL/ESP         en = ENGLISH/ENG     
+//             pt = PORTUGUÊS/BR
 
 global.lenguajeMC = es // IDIOMA DE MASCOTA-BOT-MD EJEMPLO: ES | EN | PT...
 
