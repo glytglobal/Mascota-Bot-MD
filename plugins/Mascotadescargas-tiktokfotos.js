@@ -1,8 +1,8 @@
 
 import fetch from 'node-fetch'
 let handler = async (m, { args, usedPrefix, command }) => {
-    if (!args[0]) throw `✳️ Ingresa el link de Tiktok qué contenga images`
-    if (!args[0].match(/tiktok/gi)) throw `❎ El enlace debe ser de TikTok`
+    if (!args[0]) throw `🌟 INGRESA EL LINK O ENLACE DE TIKTOK QUE CONTENGA IMÁGENES`
+    if (!args[0].match(/tiktok/gi)) throw `❌ EL ENLACE DEBE SER DE TIKTOK POR FAVOR`
 
     //m.react(rwait)
     try {
