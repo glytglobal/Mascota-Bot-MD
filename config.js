@@ -28,10 +28,11 @@ global.Key360 = ["964f-0c75-7afc"]
 // ◉━━━━━ IDIOMA : LENGUAJE ━━━━◉
 // AGREGA EL IDIOMA QUE QUIERES QUE TENGA MASCOTA-BOT-MD
 // ADD THE LANGUAGE YOU WANT MASCOTA-BOT-MD TO HAVE
+//
 //  es = ESPAÑOL/ESP         en = ENGLISH/ENG     
 //             pt = PORTUGUÊS/BR
 
-global.lenguajeMC = es // IDIOMA DE MASCOTA-BOT-MD EJEMPLO: ES | EN | PT...
+global.lenguajeMC = es // IDIOMA DE MASCOTA-BOT-MD EJEMPLO: ES | EN | PT
 
 // ━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -143,25 +144,25 @@ global.Shana = 'https://github.com/DanielDiod/DokiBot'
 
 //⊱ ━━━━━━━━━━━━━.⋅ DATOS ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎 | 𝐑𝐄𝐒𝐔𝐋𝐓 ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ 𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀 | 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 | 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⊱⊱╮\n\n'
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fg = '╰⊱❌⊱ 𝐄𝐑𝐑𝐎𝐑 - 𝐅𝐀𝐋𝐋𝐎 ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ 𝐋𝐎 𝐔𝐒𝐎 𝐌𝐀𝐋 | 𝐔𝐒𝐄𝐃 𝐈𝐓 𝐖𝐑𝐎𝐍𝐆 ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱🜲⊱ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄 | 𝐑𝐄𝐏𝐎𝐑𝐓 ⊱🜲⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱💞⊱ 𝐄𝐗𝐈𝐓𝐎 | 𝐒𝐔𝐂𝐂𝐄𝐒𝐒 ⊱💞⊱╮\n\n'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
