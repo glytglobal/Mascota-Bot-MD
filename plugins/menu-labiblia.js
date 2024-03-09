@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +18 están desactivados en este grupo, si es admin y desea activarlos use ${usedPrefix}enable modohorny*`; 
   try {
-    const pp = imagen5;
+    const pp = menu18;
     const vn = './media/La biblia.mp3';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
@@ -20,9 +20,9 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *☆𝕂𝕒𝕥𝕒𝕤𝕙𝕚-𝔹𝕠𝕥☆* —◉
+║    ◉— *𝐌𝐚𝐬𝐜𝐨𝐭𝐚-𝐁𝐨𝐭* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
+║➤ *!𝐇𝐎𝐋𝐀¡ ${taguser}*
 ╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -74,7 +74,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     conn.reply(m.chat, '*𝒟𝐼𝒮𝐹𝑅𝒰𝒯𝐸𝒩*', m);
   }
 };
-handler.command = /^(menulabiblia|labiblia|Labiblia)$/i;
+handler.command = /^(menuhorny|menulabiblia|labiblia|Labiblia|menucaliente|menu18|menupajeada|menupajeros)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
