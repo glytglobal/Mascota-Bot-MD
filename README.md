@@ -1,5 +1,5 @@
 # Mascota-Bot-MD
-> <b>🚀 VERSIÓN 1.0 (Beta)</b>
+> <b>🜲 VERSION 1.0 (BETA)</b>
 
 <p align="center"> 
 <a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=Mascota-Bot-MD+%F0%9F%98%BC;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
@@ -42,7 +42,7 @@
 -----
 ### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> **NOTA:** COMMANDOS PARA INSTALAR DE FORMA AUTOMATICA EN TERMUX
+> **NOTA:** COMANDOS PARA INSTALAR DE FORMA AUTOMATICA EN TERMUX
 ```bash
 termux-setup-storage
 ```
@@ -59,11 +59,11 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
 "wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/Mascota.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`Mascota.sh`](https://github.com/WilsonOFC/Mascota-Bot-MD/blob/master/mascota.sh)
+#### MODIFICAR ARCHIVO [`Mascota.sh`](https://github.com/glytglobal/Mascota-Bot-MD/blob/master/mascota.sh)
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
-//EJEMPLO: git clone https://github.com/glytglobal/MascotaBot-MD.git
+//EJEMPLO: git clone https://github.com/glytglobal/Mascota-Bot-MD.git
 
 209 --> "cd [repositorio]"
 //EJEMPLO: cd Mascota
@@ -100,11 +100,11 @@ npm install
 ```bash
 npm start
 ```
-> **Warning:** Si aparece (Y/I/N/O/D/Z) [default=N] use la letra "y" + "ENTER" para continuar con la instalación 
+> **ADVERTENCIA:** Si aparece (Y/I/N/O/D/Z) use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
 > **NOTA:** DESCARGUE Y DESCOMPRIME EL ARCHIVO
-### [`Mascota-Bot-MD ~ Archivos`](https://github.com/WilsonOFC/Mascota-Bot-MD/archive/refs/heads/master.zip)
+### [`Mascota-Bot-MD ~ Archivos`](https://github.com/glytglobal/Mascota-Bot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
 ```bash
@@ -112,22 +112,21 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-cd storage/downloads/MascotaBot-MD-master/Mascota-Bot-MD-master 
+cd storage/downloads/Mascota-Bot-MD-master/Mascota-Bot-MD
 yarn install
 npm install
 npm start
 ```
-* #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
-* #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Nota:** Guardar los archivos en la ubicación: storage/downloads/Mascota-Bot-MD-master/Mascota-Bot-MD-master   
+
+> **NOTA:** Guardar los archivos en la ubicación: storage/downloads/Mascota-Bot-MD-master/Mascota-Bot-MD-master   
 ----
-### 🚀 USAR MASCOTABOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta MascotaBot-MD
+### 🜲 USAR MASCOTABOT 24/7 EN TERMUX 
+> Ejecutar estos comandos dentro de la carpeta Mascota-Bot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 #### ⬇️ Opciones Disponibles
-> **Warning** Esto eliminará todo el historial que hayas establecido con PM2:
+> **ADVERTENCIA:** Esto eliminará todo el historial que hayas establecido con PM2:
 ```bash 
 pm2 delete index
 ``` 
@@ -144,13 +143,13 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 😼 ACTUALIZAR MASCOTABOT
+### 😼 ACTUALIZAR MASCOTA-BOT-MD
 > **Note** Comandos para actualizar de forma automática Mascota-Bot-MD
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/glytglobal/Mascota-Bot-MD/master/update.sh | bash 
 ```
-#### Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-> **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
+#### PARA QUE NO PIERDA SU PROGRESO EN MYLINGBOT, ESTOS COMANDOS REALIZARÁN UN RESPALDO DE SU DATABASE.JSON Y SE AGREGARÁ A LA VERSIÓN MÁS RECIENTE.
+> **ADVERTENCIA:** ESTOS COMANDOS SOLO FUNCIONAN PARA TERMUX, REPLIT, LINUX                           
 ----
 
 #### 𝘾𝙍𝙀𝘼𝘿𝙊𝙍
