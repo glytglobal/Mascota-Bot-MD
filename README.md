@@ -27,11 +27,12 @@
 <a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=¡Hey!+Mascota+%F0%9F%98%BC;Mascota-Bot-MD.+%E2%9A%A1" height="90px"></a> 
 </p>
 
-### CUENTAS OFICIALES:
-> AL ACCEDER A LA PLATAFORMA, OBTENDRÁS ACCESO A TODOS LOS ENLACES OFICIALES DE MASCOTA-BOT-MD. ADEMÁS, TE MANTENDREMOS INFORMADO CON BOLETINES Y MENSAJES EXCLUSIVOS SOBRE LAS ÚLTIMAS NOVEDADES. LA PÁGINA SE ACTUALIZA CONSTANTEMENTE PARA OFRECERTE LA INFORMACIÓN MÁS RELEVANTE. ¡NO TE PIERDAS NINGUNA ACTUALIZACIÓN Y ÚNETE A NUESTRO CANAL AHORA MISMO!
+### LINKS - INFO
+> AL ACCEDER A NUESTRA PAGINA WEB DE ENLACES/LINKS OFICIALES.
+> TENDRA ACCESO A LA NUEVAS NOTICIAS/PODER USAR EL BOT EN LOS GRUPOS Y MAS
 
 <a href="https://www.atom.bio/Mascota-Bot-MD">
-<img src="https://img.shields.io/badge/Redes_Sociales-000000%7D?style=for-the-badge&logo=biolink&logoColor=white">
+<img src="https://img.shields.io/badge/PAGINA_WEB-FF0000?style=for-the-badge&logo=biolink&logoColor=white">
 </a>
 
 -----
