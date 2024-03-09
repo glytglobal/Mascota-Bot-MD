@@ -104,7 +104,7 @@ global.desc2 = '' // AGREGA UNA DESCRIPCIÓN LARGA (SOLO SE APLICARÁ SI SU WHAT
 global.country = '' // AGREGA TU PAIS EJEMPLO: 🇦🇷
 
 global.packname = "𝙈𝙖𝙨𝙘𝙤𝙩𝙖-𝘽𝙤𝙩-𝙈𝘿 😼" // PACKNAME - NOMBRE DEL PACK
-global.author = "𝙈𝙖𝙨𝙘𝙤𝙩𝙖 😼" // AUTHOR PACK - AUTOR DEL PACK
+global.author = "⏤͟͟͞͞𝙂𝙇 𝙔𝙏 𝙈𝙓" // AUTHOR PACK - AUTOR DEL PACK
 
 //⊱ ━━━━━.⋅ VERSION | NOMBRE | CUENTAS ⋅.━━━━ ⊰
 
@@ -112,7 +112,7 @@ global.vs = "1.0.0"
 global.vsJB = "1.2 (Beta)"
 
 global.gt = "𝙈𝙖𝙨𝙘𝙤𝙩𝙖-𝘽𝙤𝙩-𝙈𝘿 😼" // NOMBRE DE TU BOT
-global.yt = "https://www.youtube.com/@Mascota-Bot-MD"
+global.yt = "https://www.youtube.com/@GLYTMX" // CANAL DE YOUTUBE
 global.yt2 = "https://www.youtube.com/shorts/
 global.ig = "https://www.instagram.com/
 global.md = "https://github.com/glytglobal/Mascota-Bot-MD/"
