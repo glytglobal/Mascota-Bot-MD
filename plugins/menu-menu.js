@@ -82,38 +82,28 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `┏━━━⪻ 𝗠𝗮𝘀𝗰𝗼𝘁𝗮-𝗕𝗼𝘁-𝗠𝗗 ⪼━━━◈
-┃
-┃*𝖢𝖱𝖤𝖠𝖣𝖮𝖱: 𝖦𝖫 𝖸𝖳 𝖬𝖷*
-┃*𝖭𝖴𝖬𝖤𝖱𝖮: wa.me/5493795319022*
-┃*𝖴𝖲𝖴𝖠𝖱𝖨𝖮𝖲: ${rtotalreg}/${totalreg}*
-┃${lenguajeGB'smsMode'} ➣${global.opts['self'] ? ${lenguajeGB'smsModePrivate'.charAt(0).toUpperCase() + lenguajeGB'smsModePrivate'.slice(1).toLowerCase()} : ${lenguajeGB'smsModePublic'.charAt(0).toUpperCase() + lenguajeGB'smsModePublic'.slice(1).toLowerCase()}}
-┃
-┃ 🌹 𝗠𝗔𝗦𝗖𝗢𝗧𝗔-𝗕𝗢𝗧-𝗠𝗗 😼
-┗━━━━━━━━━◈
+let menu = `𝐌𝐀𝐒𝐂𝐎𝐓𝐀-𝐁𝐎𝐓-𝐌𝐃
 
-╭════〘 𝖨𝖭𝖥𝖮 𝖬𝖠𝖲𝖢𝖮𝖳𝖠-𝖡𝖮𝖳-𝖬𝖣 〙════⊷❍
-┃✓│𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 𝗗𝗘 𝗠𝗔𝗦𝗖𝗢𝗧𝗔 😼
-┃✓│✿ _Registrados »_ ${rtotalreg}/${totalreg}
-┃✓│✿ _${lenguajeGB'smsUptime'}_ ➣ _${uptime}_ 
-┃✓│✿ _${lenguajeGB'smsVersion'}_ ➢ _${vs}_
-┃✓│✿  _${lenguajeGB'smsMode'} ➣_ _${global.opts['self'] ? `${lenguajeGB'smsModePrivate'.charAt(0).toUpperCase() + lenguajeGB'smsModePrivate'.slice(1).toLowerCase()}` : `${lenguajeGB'smsModePublic'.charAt(0).toUpperCase() + lenguajeGB'smsModePublic'.slice(1).toLowerCase()}`}_
-┃✓│✿ _${lenguajeGB'smsBanChats'}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃✓╰─────────────────❍
-╰══════════════════⊷❍
+> « 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 »
 
-╭════〘 𝖨𝖭𝖥𝖮 𝖣𝖤𝖫 𝖴𝖲𝖴𝖠𝖱𝖨𝖮(𝖠) 〙════⊷❍
-┃✓│ 𝗧𝗨 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 𝗖𝗢𝗡 𝗠𝗔𝗦𝗖𝗢𝗧𝗔 😼
-┃✓│ 𝖳𝖨𝖯𝖮 𝖣𝖤 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮 » ${user.registered === true ? `_${user.registroC === true ? '𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘊𝘖𝘔𝘗𝘓𝘌𝘛𝘖' : '𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘙𝘈𝘗𝘐𝘋𝘖'}_` : '❌ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮'}
-┃✓│ 𝖤𝖲𝖳𝖠𝖣𝖮 »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : 'TE SENTIS' + user.miestado + '_'}
-┃✓│ 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖠𝖣𝖮 »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
-┃✓│ ${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✅' : '❌ ' + usedPrefix + 'pase premium'}
-┃✓│ ${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} » ${role}
-┃✓│ ${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
-┃✓│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🌹 ${lenguajeGB['smsResultPareja']()}*_`}
-┃✓│ _𝖯𝖠𝖲𝖠𝖳𝖨𝖤𝖬𝖯𝖮(𝖲) 😼 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
-┃✓╰─────────────────❍
-╰══════════════════⊷❍
+≪ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐁𝐎𝐓 ≫
+
+⪼ 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐒 » ${rtotalreg}/${totalreg}
+⪼ ${lenguajeMC'smsUptime'} ➢ ${uptime}
+⪼ ${lenguajeMC'smsVersion'} ➢ ${vs}
+⪼ ${lenguajeMC'smsMode' ➢ ${global.opts['self'] ? `${lenguajeMC'smsModePrivate'.charAt(0).toUpperCase() + lenguajeMC'smsModePrivate'.slice(1).toLowerCase()}` : `${lenguajeMC'smsModePublic'.charAt(0).toUpperCase() + lenguajeMC'smsModePublic'.slice(1).toLowerCase()}`}
+⪼ ${lenguajeMC'smsBanChats'} ➣ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
+
+≪ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎(𝐀) ≫
+
+⪼ 𝐓𝐈𝐏𝐎 𝐃𝐄 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 » ${user.registered === true ? `_${user.registroC === true ? '𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎' : '𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 𝐑𝐀𝐏𝐈𝐃𝐎'}_` : '❌ 𝐒𝐈𝐍 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎'}
+⪼ 𝐄𝐒𝐓𝐀𝐃𝐎 » ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado' : 'TE SIENTES' + user.miestado + '_'}
+⪼ 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
+⪼ ${lenguajeMC['smsBotonM7']().charAt(0).toUpperCase() + lenguajeMC['smsBotonM7']().slice(1).toLowerCase()} » ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium'}_
+⪼ ${lenguajeMC['smsBotonM5']().charAt(0).toUpperCase() + lenguajeMC['smsBotonM5']().slice(1).toLowerCase()} » ${role}
+⪼ ${lenguajeMC['smsBotonM6']().charAt(0).toUpperCase() + lenguajeMC['smsBotonM6']().slice(1).toLowerCase()} » ${emoji} || ${user.exp - min}/${xp}
+⪼ _${lenguajeMC['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🌹 ${lenguajeMC['smsResultPareja']()}*_`}
+⪼ 𝐏𝐀𝐒𝐀𝐓𝐈𝐄𝐌𝐏𝐎(𝐒) 😼 ${user.pasatiempo === 0 ? '*𝐒𝐈𝐍 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐑*_' : user.pasatiempo + '_'}
 
 ╭═══〘 𝖱𝖤𝖢𝖴𝖱𝖲𝖮𝖲 𝖣𝖤𝖫 𝖴𝖲𝖴𝖠𝖱𝖨𝖮(𝖠) 〙═══⊷❍
 ┃✓╭──────────────
