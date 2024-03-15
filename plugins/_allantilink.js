@@ -26,68 +26,68 @@ const isAntiLinkTw = isLinkTw.exec(m.text)
  
 if (chat.antiTiktok && isAntiLinkTik) {  
 if (isBotAdmin && bot.restrict) {
-await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsEnlaceTik']()} *@${toUser}*`, null, { mentions: [aa] })
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsEnlaceTik']()} *@${toUser}*`, null, { mentions: [aa] })
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeMC['smsAvisoFG']()} ${lenguajeMC['smsAllAdmin']()}`)
+return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsSoloOwner']()}`)
+return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
 }}
     
 if (chat.antiYoutube && isAntiLinkYt) {
 if (isBotAdmin && bot.restrict) {
-await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsEnlaceYt']()} *@${toUser}*`, null, { mentions: [aa] })
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsEnlaceYt']()} *@${toUser}*`, null, { mentions: [aa] })
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeMC['smsAvisoFG']()} ${lenguajeMC['smsAllAdmin']()}`)
+return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsSoloOwner']()}`)
+return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
 }}  
     
 if (chat.antiTelegram && isAntiLinkTel) {
 if (isBotAdmin && bot.restrict) {
-await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsEnlaceTel']()} *@${toUser}*`, null, { mentions: [aa] })
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsEnlaceTel']()} *@${toUser}*`, null, { mentions: [aa] })
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeMC['smsAvisoFG']()} ${lenguajeMC['smsAllAdmin']()}`)
+return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsSoloOwner']()}`)
+return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
 }}    
     
 if (chat.antiFacebook && isAntiLinkFb) {
 if (isBotAdmin && bot.restrict) {
-await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsEnlaceFb']()} *@${toUser}*`, null, { mentions: [aa] })
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsEnlaceFb']()} *@${toUser}*`, null, { mentions: [aa] })
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeMC['smsAvisoFG']()} ${lenguajeMC['smsAllAdmin']()}`)
+return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsSoloOwner']()}`)
+return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
 }}  
     
 if (chat.antiInstagram && isAntiLinkIg) {
 if (isBotAdmin && bot.restrict) {
-await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsEnlaceIg']()} *@${toUser}*`, null, { mentions: [aa] })
+await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeGB['smsEnlaceIg']()} *@${toUser}*`, null, { mentions: [aa] })
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeMC['smsAvisoFG']()} ${lenguajeMC['smsAllAdmin']()}`)
+return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsSoloOwner']()}`)
+return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
 }}
     
 if (chat.antiTwitter && isAntiLinkTw) {
 if (isBotAdmin && bot.restrict) {
-await conn.reply(m.chat, `${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsEnlaceTw']()} *@${toUser}*`, null, { mentions: [aa] })
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsEnlaceTw']()} *@${toUser}*`, null, { mentions: [aa] })
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 } else if (!isBotAdmin) {
-return m.reply(`${lenguajeMC['smsAvisoFG']()} ${lenguajeMC['smsAllAdmin']()}`)
+return m.reply(`${lenguajeGB['smsAvisoFG']()} ${lenguajeGB['smsAllAdmin']()}`)
 } else if (!bot.restrict) {
-return m.reply(`${lenguajeMC['smsAvisoAG']()}${lenguajeMC['smsSoloOwner']()}`)
+return m.reply(`${lenguajeGB['smsAvisoAG']()}${lenguajeGB['smsSoloOwner']()}`)
 }}
 return !0
 }
