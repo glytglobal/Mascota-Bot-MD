@@ -1,7 +1,7 @@
 {
-"name": "MylingBot-MD",
+"name": "Mascota-Bot-MD",
 "version": "1.0.0",
-"description": "Super Bot WhatsApp",
+"description": "SUPER - MASCOTA 😼",
 "main": "index.js",
 "type": "module",
     
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/WilsonOFC/MylingBot-MD",
+"homepage": "https://github.com/glytglobal/Mascota-Bot-MD",
 "author": {
-"name": "WilsonOFC" }, 
+"name": "glytglobal" }, 
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/WilsonOFC/MylingBot-MDgit" },
+"url": "git+https://github.com/glytglobal/Mascota-Bot-MDgit" },
 
 "bugs": {
-"url": "https://github.com/WilsonOFC/MylingBot-MD/issues" },
+"url": "https://github.com/glytglobal/Mascota-Bot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.5.0",
