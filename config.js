@@ -6,7 +6,7 @@ import cheerio from "cheerio"
 import fetch from "node-fetch"
 import axios from "axios"
 import moment from "moment-timezone"
-import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"
+import { en, es, pt } from "./lib/idiomas/total-idiomas.js"
 
 // ✿ 𝗣𝗥𝗢𝗣𝗜𝗘𝗧𝗔𝗥𝗜𝗢/𝗢𝗪𝗡𝗘𝗥 ✿
 // ◉━━━━━ AÑADA LOS NUMEROS A SER PROPIETARIO/A | ADD THE NUMBERS TO BE OWNER ━━━━◉
@@ -113,29 +113,29 @@ global.vsJB = "1.2 (Beta)"
 
 global.gt = "𝙈𝙖𝙨𝙘𝙤𝙩𝙖-𝘽𝙤𝙩-𝙈𝘿 😼" // NOMBRE DE TU BOT
 global.yt = "https://www.youtube.com/@GLYTMX" // CANAL DE YOUTUBE
-global.yt2 = "https://www.youtube.com/shorts/
-global.ig = "https://www.instagram.com/
+global.yt2 = "https://www.youtube.com/shorts/"
+global.ig = "https://www.instagram.com/"
 global.md = "https://github.com/glytglobal/Mascota-Bot-MD/"
 global.fb = "https://www.facebook.com/WilsonWaoz"
 
-global.cnl = 'https://whatsapp.com/channel/
-global.nna = 'https://whatsapp.com/channel/
-global.nn2 = 'https://whatsapp.com/channel/
-global.nna2 = 'https://chat.whatsapp.com/
-global.nn = 'https://chat.whatsapp.com/
-global.nnn = 'https://chat.whatsapp.com/
-global.nnnt = 'https://chat.whatsapp.com/
-global.nnntt = 'https://chat.whatsapp.com/
+global.cnl = 'https://whatsapp.com/channel/'
+global.nna = 'https://whatsapp.com/channel/'
+global.nn2 = 'https://whatsapp.com/channel/'
+global.nna2 = 'https://chat.whatsapp.com/'
+global.nn = 'https://chat.whatsapp.com/'
+global.nnn = 'https://chat.whatsapp.com/'
+global.nnnt = 'https://chat.whatsapp.com/'
+global.nnntt = 'https://chat.whatsapp.com/'
 global.nnnttt = 'https://chat.whatsapp.com/LgxLCZwejjSFaeREilUo7r' //Grupo 5 - Anexados del infierno
-global.nnnttt1 = 'https://chat.whatsapp.com/
-global.nnnttt2 = 'https://chat.whatsapp.com/
-global.nnnttt3 = 'https://chat.whatsapp.com/
-global.nnnttt4 = 'https://chat.whatsapp.com/
-global.nnnttt5 = 'https://chat.whatsapp.com/
-global.paypal = 'https://paypal.me/WilsonWaoz
+global.nnnttt1 = 'https://chat.whatsapp.com/'
+global.nnnttt2 = 'https://chat.whatsapp.com/'
+global.nnnttt3 = 'https://chat.whatsapp.com/'
+global.nnnttt4 = 'https://chat.whatsapp.com/'
+global.nnnttt5 = 'https://chat.whatsapp.com/'
+global.paypal = 'https://paypal.me/WilsonWaoz'
 global.asistencia = 'Wa.me/5493795319022' // CREADOR DE MASCOTA
 global.asistencia2 = 'Wa.me/5492964650915' // FIEL COLABORADOR MASCOTA
-global.Curiosity = 'https://github.com/AzamiJS/CuriosityBot-MD'
+global.curiosity = 'https://github.com/AzamiJS/CuriosityBot-MD'
 global.katashibot = 'https://github.com/KatashiFukushima/KatashiBot-MD/'
 global.Shana = 'https://github.com/DanielDiod/DokiBot'
 
@@ -185,19 +185,14 @@ global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.pre
 
 // ◉━━━━━ IMG ━━━━◉
 
-global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
+global.imagen1 = fs.readFileSync("./Menú2.jpg")
 global.imagen2 = fs.readFileSync("./media/menus/img1.jpg")
-global.imagen3 = fs.readFileSync("./media/menus/img2.jpg")
-global.imagen4 = fs.readFileSync("./media/menus/img3.jpg")
+global.imagen3 = fs.readFileSync("./media/menus/img2.png")
+global.imagen4 = fs.readFileSync("./media/menus/img3.png")
 global.imagen5 = fs.readFileSync("./media/menus/img4.jpg")
 global.imagen6 = fs.readFileSync("./media/menus/img5.jpg")
 global.imagen7 = fs.readFileSync("./media/menus/img6.jpg")
 global.imagen8 = fs.readFileSync("./media/menus/img7.jpg")
-global.imagen9 = fs.readFileSync("./media/menus/img8.jpg")
-global.imagen10 = fs.readFileSync("./media/menus/img9.jpg")
-global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
-global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
-global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -234,7 +229,7 @@ global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, md, ig, paypal, yt, asistencia, fb]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['https://telegra.ph/file/93af7de92aa4e791b77b4.mp4', 'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4', 'https://telegra.ph/file/117391db9016a51f73618.mp4']
-global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
+global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -277,7 +272,7 @@ global.fgif = {
                         'seconds': '999999999', 
                         'gifPlayback': 'true', 
                         'caption': bottime,
-                        'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
+                        'jpegThumbnail': fs.readFileSync('./Menú2.jpg')
                                }
                               }
                              };
