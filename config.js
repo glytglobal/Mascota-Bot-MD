@@ -187,8 +187,8 @@ global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.pre
 
 global.imagen1 = fs.readFileSync("./Menú2.jpg")
 global.imagen2 = fs.readFileSync("./media/menus/img1.jpg")
-global.imagen3 = fs.readFileSync("./media/menus/img2.png")
-global.imagen4 = fs.readFileSync("./media/menus/img3.png")
+global.imagen3 = fs.readFileSync("./media/menus/img2.jpg")
+global.imagen4 = fs.readFileSync("./media/menus/img3.jpg")
 global.imagen5 = fs.readFileSync("./media/menus/img4.jpg")
 global.imagen6 = fs.readFileSync("./media/menus/img5.jpg")
 global.imagen7 = fs.readFileSync("./media/menus/img6.jpg")
