@@ -23,7 +23,7 @@
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/glytglobal/Mascota-Bot-MD" },
+"url": "git+https://github.com/glytglobal/Mascota-Bot-MD.git" },
 
 "bugs": {
 "url": "https://github.com/glytglobal/Mascota-Bot-MD/issues" },
