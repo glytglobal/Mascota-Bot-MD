@@ -1,6 +1,6 @@
-// 𝘊𝘖𝘋𝘐𝘎𝘖 𝘊𝘙𝘌𝘈𝘋𝘖 𝘗𝘖𝘙 𝘎𝘈𝘛𝘈𝘕𝘐𝘕𝘈-𝘓𝘐 - https://github.com/GataNina-Li/
+/* 𝘊𝘖𝘋𝘐𝘎𝘖 𝘊𝘙𝘌𝘈𝘋𝘖 𝘗𝘖𝘙 𝘎𝘈𝘛𝘈𝘕𝘐𝘕𝘈-𝘓𝘐 - https://github.com/GataNina-Li/
 
-// 𝘙𝘌𝘊𝘖𝘗𝘐𝘈𝘋𝘖 𝘗𝘖𝘙 𝘎𝘓 𝘠𝘛 𝘔𝘟 - https://github.com/glytglobal/
+// 𝘔𝘖𝘋𝘌𝘈𝘋𝘖 𝘗𝘖𝘙 𝘎𝘓 𝘠𝘛 𝘔𝘟 - https://github.com/glytglobal/
 
 import fetch from 'node-fetch'  
 import fs from 'fs'
