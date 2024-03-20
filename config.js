@@ -13,9 +13,9 @@ import { en, es, pt } from "./lib/idiomas/total-idiomas.js"
 
 global.owner = [
  ["99999999", '🌟 𝗠𝗮𝘀𝗰𝗼𝘁𝗮-𝗕𝗼𝘁-𝗠𝗗 🌟', true], 
- ["5493795319022", '👑 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 👑', true],
- ["573013482814", '𝗗𝗜𝗘𝗚𝗢 🍧', true],
- ["51955918117", '𝗗𝗔𝗡𝗜𝗘𝗟 🇦🇱', true]]
+ ["5493795319022", '👑 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 👑', true],
+ ["573013482814", '𝗗𝗶𝗲𝗴𝗼 🐈', true],
+ ["51955918117", '𝗗𝗮𝗻𝗶𝗲𝗹 🇦🇱', true]]
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -93,10 +93,10 @@ global.moment = moment
 
 // ◉━━━━━ VERSION | NOMBRE | CUENTAS ━━━━◉
 
-global.official = [ // AGREGATE MASCOTA SI ERES OWNER
-["51955918117", '𝗗𝗔𝗡𝗜𝗘𝗟 🇦🇱'], 
-["5493795319022", '𝗚𝗟 𝗬𝗧 𝗠𝗫 - 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', 1],
-["573013482814", '𝗗𝗜𝗘𝗚𝗢 🍧', 1]]
+global.official = [ // AGREGATE MASCOTA SI ERES OWNER 
+["5493795319022", '𝗚𝗟 𝗬𝗧 𝗠𝗫', 1],
+["573013482814", '𝗗𝗶𝗲𝗴𝗼 🐈', 1],
+["51955918117", '𝗗𝗮𝗻𝗶𝗲𝗹 🇦🇱']]
 
 global.mail = '' // AGREGA TU CORREO
 global.desc = '' // AGREGA UNA DESCRIPCION CORTA
