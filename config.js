@@ -93,7 +93,7 @@ global.moment = moment
 
 // ◉━━━━━ VERSION | NOMBRE | CUENTAS ━━━━◉
 
-global.official = [ // AGREGATE MASCOTA SI ERES OWNER 
+global.official = [ // AGREGATE SI ERES OWNER 
 ["5493795319022", '𝗚𝗟 𝗬𝗧 𝗠𝗫', 1],
 ["573013482814", '𝗗𝗶𝗲𝗴𝗼 🐈', 1],
 ["51955918117", '𝗗𝗮𝗻𝗶𝗲𝗹 🇦🇱']]
